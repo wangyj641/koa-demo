@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha"
+    "test": "mocha",
+    "build": "prisma generate"
   },
   "author": "Yongjun Wang",
   "license": "ISC",

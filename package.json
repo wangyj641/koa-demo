@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "mocha",
-    "build": "prisma generate & node index.js"
+    "postinstall": "prisma generate"
   },
   "author": "Yongjun Wang",
   "license": "ISC",

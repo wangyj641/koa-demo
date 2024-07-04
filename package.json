@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha",
-    "postinstall": "prisma generate"
+    "test": "mocha"
   },
   "author": "Yongjun Wang",
   "license": "ISC",
@@ -24,7 +23,7 @@
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^12.0.1",
     "lodash": "^4.17.21",
-    "multer": "1.4.3",
+    "multer": "1.4.4-lts.1",
     "nodemon": "^2.0.20",
     "path": "^0.12.7"
   },

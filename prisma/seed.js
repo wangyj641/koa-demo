@@ -1,4 +1,5 @@
-import { PrismaClient } from "@prisma/client";
+//import { PrismaClient } from "@prisma/client";
+import { PrismaClient } from '../prisma/generated/client/index.js'
 
 const equipmentList = [
   'EQ-12345',

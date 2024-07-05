@@ -8,7 +8,7 @@
     "start": "npx prisma generate && node index.js",
     "build": "npx prisma generate && npx prisma db push && node index.js",
     "test": "mocha",
-    "postinstall": "prisma generate"
+    "postinstall": "npx prisma generate"
   },
   "author": "Yongjun Wang",
   "license": "ISC",

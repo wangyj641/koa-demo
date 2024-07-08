@@ -22,7 +22,7 @@ async function main() {
   //clearUser();
   //clearData();
 
-  fillUser();
+  //fillUser();
   fillData();
 }
 
